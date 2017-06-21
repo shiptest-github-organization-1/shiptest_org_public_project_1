@@ -4,4 +4,4 @@ jobs:
     steps:
       - IN: dv-params-1
       - TASK:
-        - script: sleep 60
+        - script: sleep 120
