@@ -1,0 +1,6 @@
+jobs:      
+  - name: dv-man-1
+    type: manifest
+    steps:
+      - IN: dv-params-1
+      - TASK: managed
