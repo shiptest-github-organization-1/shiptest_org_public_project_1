@@ -1,6 +1,7 @@
 jobs:      
-  - name: dv-man-1
-    type: manifest
+  - name: dv-run-sh
+    type: runSh
     steps:
       - IN: dv-params-1
-      - TASK: managed
+      - TASK:
+        - script: sleep 60
